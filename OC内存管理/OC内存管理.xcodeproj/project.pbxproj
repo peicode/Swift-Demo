@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3900FA1E2265BA8200DE58CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3900FA1D2265BA8200DE58CF /* AppDelegate.m */; };
+		3900FA212265BA8200DE58CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3900FA202265BA8200DE58CF /* ViewController.m */; };
+		3900FA242265BA8200DE58CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3900FA222265BA8200DE58CF /* Main.storyboard */; };
+		3900FA262265BA8300DE58CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3900FA252265BA8300DE58CF /* Assets.xcassets */; };
+		3900FA292265BA8300DE58CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3900FA272265BA8300DE58CF /* LaunchScreen.storyboard */; };
+		3900FA2C2265BA8300DE58CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3900FA2B2265BA8300DE58CF /* main.m */; };
+		3900FA362265BA8300DE58CF /* OC____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3900FA352265BA8300DE58CF /* OC____Tests.m */; };
+		3900FA412265BA8300DE58CF /* OC____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3900FA402265BA8300DE58CF /* OC____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3900FA322265BA8300DE58CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3900FA112265BA8200DE58CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3900FA182265BA8200DE58CF;
+			remoteInfo = "OC内存管理";
+		};
+		3900FA3D2265BA8300DE58CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3900FA112265BA8200DE58CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3900FA182265BA8200DE58CF;
+			remoteInfo = "OC内存管理";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3900FA192265BA8200DE58CF /* OC内存管理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC内存管理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3900FA1C2265BA8200DE58CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3900FA1D2265BA8200DE58CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3900FA1F2265BA8200DE58CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3900FA202265BA8200DE58CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3900FA232265BA8200DE58CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3900FA252265BA8300DE58CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3900FA282265BA8300DE58CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3900FA2A2265BA8300DE58CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3900FA2B2265BA8300DE58CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3900FA312265BA8300DE58CF /* OC内存管理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC内存管理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3900FA352265BA8300DE58CF /* OC____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OC____Tests.m"; sourceTree = "<group>"; };
+		3900FA372265BA8300DE58CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3900FA3C2265BA8300DE58CF /* OC内存管理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC内存管理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3900FA402265BA8300DE58CF /* OC____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OC____UITests.m"; sourceTree = "<group>"; };
+		3900FA422265BA8300DE58CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3900FA162265BA8200DE58CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3900FA2E2265BA8300DE58CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3900FA392265BA8300DE58CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3900FA102265BA8200DE58CF = {
+			isa = PBXGroup;
+			children = (
+				3900FA1B2265BA8200DE58CF /* OC内存管理 */,
+				3900FA342265BA8300DE58CF /* OC内存管理Tests */,
+				3900FA3F2265BA8300DE58CF /* OC内存管理UITests */,
+				3900FA1A2265BA8200DE58CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3900FA1A2265BA8200DE58CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3900FA192265BA8200DE58CF /* OC内存管理.app */,
+				3900FA312265BA8300DE58CF /* OC内存管理Tests.xctest */,
+				3900FA3C2265BA8300DE58CF /* OC内存管理UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3900FA1B2265BA8200DE58CF /* OC内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+				3900FA1C2265BA8200DE58CF /* AppDelegate.h */,
+				3900FA1D2265BA8200DE58CF /* AppDelegate.m */,
+				3900FA1F2265BA8200DE58CF /* ViewController.h */,
+				3900FA202265BA8200DE58CF /* ViewController.m */,
+				3900FA222265BA8200DE58CF /* Main.storyboard */,
+				3900FA252265BA8300DE58CF /* Assets.xcassets */,
+				3900FA272265BA8300DE58CF /* LaunchScreen.storyboard */,
+				3900FA2A2265BA8300DE58CF /* Info.plist */,
+				3900FA2B2265BA8300DE58CF /* main.m */,
+			);
+			path = "OC内存管理";
+			sourceTree = "<group>";
+		};
+		3900FA342265BA8300DE58CF /* OC内存管理Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3900FA352265BA8300DE58CF /* OC____Tests.m */,
+				3900FA372265BA8300DE58CF /* Info.plist */,
+			);
+			path = "OC内存管理Tests";
+			sourceTree = "<group>";
+		};
+		3900FA3F2265BA8300DE58CF /* OC内存管理UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3900FA402265BA8300DE58CF /* OC____UITests.m */,
+				3900FA422265BA8300DE58CF /* Info.plist */,
+			);
+			path = "OC内存管理UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3900FA182265BA8200DE58CF /* OC内存管理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3900FA452265BA8300DE58CF /* Build configuration list for PBXNativeTarget "OC内存管理" */;
+			buildPhases = (
+				3900FA152265BA8200DE58CF /* Sources */,
+				3900FA162265BA8200DE58CF /* Frameworks */,
+				3900FA172265BA8200DE58CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC内存管理";
+			productName = "OC内存管理";
+			productReference = 3900FA192265BA8200DE58CF /* OC内存管理.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3900FA302265BA8300DE58CF /* OC内存管理Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3900FA482265BA8300DE58CF /* Build configuration list for PBXNativeTarget "OC内存管理Tests" */;
+			buildPhases = (
+				3900FA2D2265BA8300DE58CF /* Sources */,
+				3900FA2E2265BA8300DE58CF /* Frameworks */,
+				3900FA2F2265BA8300DE58CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3900FA332265BA8300DE58CF /* PBXTargetDependency */,
+			);
+			name = "OC内存管理Tests";
+			productName = "OC内存管理Tests";
+			productReference = 3900FA312265BA8300DE58CF /* OC内存管理Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3900FA3B2265BA8300DE58CF /* OC内存管理UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3900FA4B2265BA8300DE58CF /* Build configuration list for PBXNativeTarget "OC内存管理UITests" */;
+			buildPhases = (
+				3900FA382265BA8300DE58CF /* Sources */,
+				3900FA392265BA8300DE58CF /* Frameworks */,
+				3900FA3A2265BA8300DE58CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3900FA3E2265BA8300DE58CF /* PBXTargetDependency */,
+			);
+			name = "OC内存管理UITests";
+			productName = "OC内存管理UITests";
+			productReference = 3900FA3C2265BA8300DE58CF /* OC内存管理UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3900FA112265BA8200DE58CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "廖佩志";
+				TargetAttributes = {
+					3900FA182265BA8200DE58CF = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3900FA302265BA8300DE58CF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3900FA182265BA8200DE58CF;
+					};
+					3900FA3B2265BA8300DE58CF = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3900FA182265BA8200DE58CF;
+					};
+				};
+			};
+			buildConfigurationList = 3900FA142265BA8200DE58CF /* Build configuration list for PBXProject "OC内存管理" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3900FA102265BA8200DE58CF;
+			productRefGroup = 3900FA1A2265BA8200DE58CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3900FA182265BA8200DE58CF /* OC内存管理 */,
+				3900FA302265BA8300DE58CF /* OC内存管理Tests */,
+				3900FA3B2265BA8300DE58CF /* OC内存管理UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3900FA172265BA8200DE58CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3900FA292265BA8300DE58CF /* LaunchScreen.storyboard in Resources */,
+				3900FA262265BA8300DE58CF /* Assets.xcassets in Resources */,
+				3900FA242265BA8200DE58CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3900FA2F2265BA8300DE58CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3900FA3A2265BA8300DE58CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3900FA152265BA8200DE58CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3900FA212265BA8200DE58CF /* ViewController.m in Sources */,
+				3900FA2C2265BA8300DE58CF /* main.m in Sources */,
+				3900FA1E2265BA8200DE58CF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3900FA2D2265BA8300DE58CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3900FA362265BA8300DE58CF /* OC____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3900FA382265BA8300DE58CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3900FA412265BA8300DE58CF /* OC____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3900FA332265BA8300DE58CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3900FA182265BA8200DE58CF /* OC内存管理 */;
+			targetProxy = 3900FA322265BA8300DE58CF /* PBXContainerItemProxy */;
+		};
+		3900FA3E2265BA8300DE58CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3900FA182265BA8200DE58CF /* OC内存管理 */;
+			targetProxy = 3900FA3D2265BA8300DE58CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3900FA222265BA8200DE58CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3900FA232265BA8200DE58CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3900FA272265BA8300DE58CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3900FA282265BA8300DE58CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3900FA432265BA8300DE58CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3900FA442265BA8300DE58CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3900FA462265BA8300DE58CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = "OC内存管理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpz.code.OC----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3900FA472265BA8300DE58CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = "OC内存管理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpz.code.OC----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3900FA492265BA8300DE58CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = "OC内存管理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpz.code.OC----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC内存管理.app/OC内存管理";
+			};
+			name = Debug;
+		};
+		3900FA4A2265BA8300DE58CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = "OC内存管理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpz.code.OC----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC内存管理.app/OC内存管理";
+			};
+			name = Release;
+		};
+		3900FA4C2265BA8300DE58CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = "OC内存管理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpz.code.OC----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OC内存管理";
+			};
+			name = Debug;
+		};
+		3900FA4D2265BA8300DE58CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = "OC内存管理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpz.code.OC----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OC内存管理";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3900FA142265BA8200DE58CF /* Build configuration list for PBXProject "OC内存管理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3900FA432265BA8300DE58CF /* Debug */,
+				3900FA442265BA8300DE58CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3900FA452265BA8300DE58CF /* Build configuration list for PBXNativeTarget "OC内存管理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3900FA462265BA8300DE58CF /* Debug */,
+				3900FA472265BA8300DE58CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3900FA482265BA8300DE58CF /* Build configuration list for PBXNativeTarget "OC内存管理Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3900FA492265BA8300DE58CF /* Debug */,
+				3900FA4A2265BA8300DE58CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3900FA4B2265BA8300DE58CF /* Build configuration list for PBXNativeTarget "OC内存管理UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3900FA4C2265BA8300DE58CF /* Debug */,
+				3900FA4D2265BA8300DE58CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3900FA112265BA8200DE58CF /* Project object */;
+}
