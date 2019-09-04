@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		394C1FD0222CDA870051786B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C1FCF222CDA870051786B /* AppDelegate.swift */; };
+		394C1FD2222CDA870051786B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C1FD1222CDA870051786B /* ViewController.swift */; };
+		394C1FD5222CDA870051786B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394C1FD3222CDA870051786B /* Main.storyboard */; };
+		394C1FD7222CDA890051786B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394C1FD6222CDA890051786B /* Assets.xcassets */; };
+		394C1FDA222CDA890051786B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394C1FD8222CDA890051786B /* LaunchScreen.storyboard */; };
+		394C1FE5222CDA890051786B /* MD5______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C1FE4222CDA890051786B /* MD5______Tests.swift */; };
+		394C1FF0222CDA890051786B /* MD5______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C1FEF222CDA890051786B /* MD5______UITests.swift */; };
+		394C1FFE222CDA9E0051786B /* PSMD5Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C1FFD222CDA9E0051786B /* PSMD5Tool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		394C1FE1222CDA890051786B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394C1FC4222CDA870051786B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394C1FCB222CDA870051786B;
+			remoteInfo = "MD5加密算法实践";
+		};
+		394C1FEC222CDA890051786B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394C1FC4222CDA870051786B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394C1FCB222CDA870051786B;
+			remoteInfo = "MD5加密算法实践";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		394C1FCC222CDA870051786B /* MD5加密算法实践.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MD5加密算法实践.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		394C1FCF222CDA870051786B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		394C1FD1222CDA870051786B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		394C1FD4222CDA870051786B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		394C1FD6222CDA890051786B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		394C1FD9222CDA890051786B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		394C1FDB222CDA890051786B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		394C1FE0222CDA890051786B /* MD5加密算法实践Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MD5加密算法实践Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		394C1FE4222CDA890051786B /* MD5______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MD5______Tests.swift"; sourceTree = "<group>"; };
+		394C1FE6222CDA890051786B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		394C1FEB222CDA890051786B /* MD5加密算法实践UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MD5加密算法实践UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		394C1FEF222CDA890051786B /* MD5______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MD5______UITests.swift"; sourceTree = "<group>"; };
+		394C1FF1222CDA890051786B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		394C1FFD222CDA9E0051786B /* PSMD5Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSMD5Tool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		394C1FC9222CDA870051786B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394C1FDD222CDA890051786B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394C1FE8222CDA890051786B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394C1FC3222CDA870051786B = {
+			isa = PBXGroup;
+			children = (
+				394C1FCE222CDA870051786B /* MD5加密算法实践 */,
+				394C1FE3222CDA890051786B /* MD5加密算法实践Tests */,
+				394C1FEE222CDA890051786B /* MD5加密算法实践UITests */,
+				394C1FCD222CDA870051786B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		394C1FCD222CDA870051786B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				394C1FCC222CDA870051786B /* MD5加密算法实践.app */,
+				394C1FE0222CDA890051786B /* MD5加密算法实践Tests.xctest */,
+				394C1FEB222CDA890051786B /* MD5加密算法实践UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		394C1FCE222CDA870051786B /* MD5加密算法实践 */ = {
+			isa = PBXGroup;
+			children = (
+				394C1FCF222CDA870051786B /* AppDelegate.swift */,
+				394C1FD1222CDA870051786B /* ViewController.swift */,
+				394C1FD3222CDA870051786B /* Main.storyboard */,
+				394C1FD6222CDA890051786B /* Assets.xcassets */,
+				394C1FD8222CDA890051786B /* LaunchScreen.storyboard */,
+				394C1FDB222CDA890051786B /* Info.plist */,
+				394C1FFD222CDA9E0051786B /* PSMD5Tool.swift */,
+			);
+			path = "MD5加密算法实践";
+			sourceTree = "<group>";
+		};
+		394C1FE3222CDA890051786B /* MD5加密算法实践Tests */ = {
+			isa = PBXGroup;
+			children = (
+				394C1FE4222CDA890051786B /* MD5______Tests.swift */,
+				394C1FE6222CDA890051786B /* Info.plist */,
+			);
+			path = "MD5加密算法实践Tests";
+			sourceTree = "<group>";
+		};
+		394C1FEE222CDA890051786B /* MD5加密算法实践UITests */ = {
+			isa = PBXGroup;
+			children = (
+				394C1FEF222CDA890051786B /* MD5______UITests.swift */,
+				394C1FF1222CDA890051786B /* Info.plist */,
+			);
+			path = "MD5加密算法实践UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		394C1FCB222CDA870051786B /* MD5加密算法实践 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394C1FF4222CDA890051786B /* Build configuration list for PBXNativeTarget "MD5加密算法实践" */;
+			buildPhases = (
+				394C1FC8222CDA870051786B /* Sources */,
+				394C1FC9222CDA870051786B /* Frameworks */,
+				394C1FCA222CDA870051786B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MD5加密算法实践";
+			productName = "MD5加密算法实践";
+			productReference = 394C1FCC222CDA870051786B /* MD5加密算法实践.app */;
+			productType = "com.apple.product-type.application";
+		};
+		394C1FDF222CDA890051786B /* MD5加密算法实践Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394C1FF7222CDA890051786B /* Build configuration list for PBXNativeTarget "MD5加密算法实践Tests" */;
+			buildPhases = (
+				394C1FDC222CDA890051786B /* Sources */,
+				394C1FDD222CDA890051786B /* Frameworks */,
+				394C1FDE222CDA890051786B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				394C1FE2222CDA890051786B /* PBXTargetDependency */,
+			);
+			name = "MD5加密算法实践Tests";
+			productName = "MD5加密算法实践Tests";
+			productReference = 394C1FE0222CDA890051786B /* MD5加密算法实践Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		394C1FEA222CDA890051786B /* MD5加密算法实践UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394C1FFA222CDA890051786B /* Build configuration list for PBXNativeTarget "MD5加密算法实践UITests" */;
+			buildPhases = (
+				394C1FE7222CDA890051786B /* Sources */,
+				394C1FE8222CDA890051786B /* Frameworks */,
+				394C1FE9222CDA890051786B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				394C1FED222CDA890051786B /* PBXTargetDependency */,
+			);
+			name = "MD5加密算法实践UITests";
+			productName = "MD5加密算法实践UITests";
+			productReference = 394C1FEB222CDA890051786B /* MD5加密算法实践UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		394C1FC4222CDA870051786B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "廖佩志";
+				TargetAttributes = {
+					394C1FCB222CDA870051786B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					394C1FDF222CDA890051786B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 394C1FCB222CDA870051786B;
+					};
+					394C1FEA222CDA890051786B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 394C1FCB222CDA870051786B;
+					};
+				};
+			};
+			buildConfigurationList = 394C1FC7222CDA870051786B /* Build configuration list for PBXProject "MD5加密算法实践" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 394C1FC3222CDA870051786B;
+			productRefGroup = 394C1FCD222CDA870051786B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				394C1FCB222CDA870051786B /* MD5加密算法实践 */,
+				394C1FDF222CDA890051786B /* MD5加密算法实践Tests */,
+				394C1FEA222CDA890051786B /* MD5加密算法实践UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		394C1FCA222CDA870051786B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394C1FDA222CDA890051786B /* LaunchScreen.storyboard in Resources */,
+				394C1FD7222CDA890051786B /* Assets.xcassets in Resources */,
+				394C1FD5222CDA870051786B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394C1FDE222CDA890051786B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394C1FE9222CDA890051786B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		394C1FC8222CDA870051786B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394C1FD2222CDA870051786B /* ViewController.swift in Sources */,
+				394C1FD0222CDA870051786B /* AppDelegate.swift in Sources */,
+				394C1FFE222CDA9E0051786B /* PSMD5Tool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394C1FDC222CDA890051786B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394C1FE5222CDA890051786B /* MD5______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394C1FE7222CDA890051786B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394C1FF0222CDA890051786B /* MD5______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		394C1FE2222CDA890051786B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394C1FCB222CDA870051786B /* MD5加密算法实践 */;
+			targetProxy = 394C1FE1222CDA890051786B /* PBXContainerItemProxy */;
+		};
+		394C1FED222CDA890051786B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394C1FCB222CDA870051786B /* MD5加密算法实践 */;
+			targetProxy = 394C1FEC222CDA890051786B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		394C1FD3222CDA870051786B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				394C1FD4222CDA870051786B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		394C1FD8222CDA890051786B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				394C1FD9222CDA890051786B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		394C1FF2222CDA890051786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		394C1FF3222CDA890051786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		394C1FF5222CDA890051786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = "MD5加密算法实践/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpz.code.MD5------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		394C1FF6222CDA890051786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = "MD5加密算法实践/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpz.code.MD5------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		394C1FF8222CDA890051786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = "MD5加密算法实践Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpz.code.MD5------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MD5加密算法实践.app/MD5加密算法实践";
+			};
+			name = Debug;
+		};
+		394C1FF9222CDA890051786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = "MD5加密算法实践Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpz.code.MD5------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MD5加密算法实践.app/MD5加密算法实践";
+			};
+			name = Release;
+		};
+		394C1FFB222CDA890051786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = "MD5加密算法实践UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpz.code.MD5------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MD5加密算法实践";
+			};
+			name = Debug;
+		};
+		394C1FFC222CDA890051786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 947Y58Z74K;
+				INFOPLIST_FILE = "MD5加密算法实践UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpz.code.MD5------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MD5加密算法实践";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		394C1FC7222CDA870051786B /* Build configuration list for PBXProject "MD5加密算法实践" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394C1FF2222CDA890051786B /* Debug */,
+				394C1FF3222CDA890051786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394C1FF4222CDA890051786B /* Build configuration list for PBXNativeTarget "MD5加密算法实践" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394C1FF5222CDA890051786B /* Debug */,
+				394C1FF6222CDA890051786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394C1FF7222CDA890051786B /* Build configuration list for PBXNativeTarget "MD5加密算法实践Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394C1FF8222CDA890051786B /* Debug */,
+				394C1FF9222CDA890051786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394C1FFA222CDA890051786B /* Build configuration list for PBXNativeTarget "MD5加密算法实践UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394C1FFB222CDA890051786B /* Debug */,
+				394C1FFC222CDA890051786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 394C1FC4222CDA870051786B /* Project object */;
+}

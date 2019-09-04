@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ScrollView嵌套' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ScrollView嵌套
+
+  target 'ScrollView嵌套Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ScrollView嵌套UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

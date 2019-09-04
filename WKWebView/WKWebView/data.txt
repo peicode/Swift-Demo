@@ -1,0 +1,12 @@
+
+function addProductToCart(a,b,c){
+window.webkit.messageHandlers.nativeMethod.postMessage([a,b,c])
+}
+
+function addProductToCartQty(a,b,c){
+window.webkit.messageHandlers.nativeMethod.postMessage([a,b,c])
+}
+
+//function alertAction() {
+//window.webkit.messageHandlers.nativeMethod.postMessage("alert")
+//}

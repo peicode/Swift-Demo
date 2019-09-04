@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>JS交互</title>
+
+        <style>
+
+        body {
+            font-size:30px;
+            text-align:center;
+        }
+
+        * {
+            margin: 30px;
+            padding: 0;
+        }
+
+        h1{
+            color: blue;
+        }
+
+        button{
+            width: 300px;
+            height: 100px;
+            font-size: 30px;
+        }
+
+        img{
+            width: 300px;
+            height: 300px;
+        }
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1>WKWebview与原生交互</h1>
+        <h2></h2>
+        <button onclick="alertAction()">点击弹框</button>
+        <button onclick="buttonAction()">点击向iOS传数据</button>
+        <button onclick="openCamera()">拍照</button>
+        <button onclick="openAlbumLibrary()">打开相册</button>
+        <img src="http://img.mp.itc.cn/upload/20160428/b52be3dc215d4ecd844bf922be46f278_th.jpg", alt="图片1" onclick='clickImage()' />
+        <img src="http://pic1.nipic.com/2008-12-05/200812584425541_2.jpg", style="CURSOR:hand" onclick='clickImage()' />
+    </body>
+
+    <script>
+    function navButtonAction(name,age){
+        var dic = {name:name,age:age};
+        return dic;
+    }
+
+    function alertAction(){
+        <!--可以调用alert代理-->
+        alert("哈哈哈");
+
+    }
+
+    function buttonAction(){
+        try{
+            <!--js向ios传递数据-->
+            window.webkit.messageHandlers.nativeMethod.postMessage("我是js传递过来的数据");
+        }catch (e){
+
+        }
+    }
+
+    function openCamera(){
+        try{
+            <!--js向ios传递数据-->
+            window.webkit.messageHandlers.nativeMethod.postMessage("拍照");
+        }catch (e){
+
+        }
+    }
+    function openAlbumLibrary(){
+        try{
+            <!--js向ios传递数据-->
+            window.webkit.messageHandlers.nativeMethod.postMessage("相册");
+        }catch (e){
+
+        }
+    }
+    function loadImage(a){
+        var element = document.getElementById('img')
+        element.src = a
+    }
+    function clickImage(){
+        window.open("https://www.baidu.com")
+        window.webkit.messageHandlers.nativeMethod.postMessage("图片浏览器")
+    }
+    </script>
+
+</html>

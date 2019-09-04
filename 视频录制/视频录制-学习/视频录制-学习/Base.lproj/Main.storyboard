@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="视频录制_学习" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="91H-rf-gXk" userLabel="BGView">
+                                <rect key="frame" x="0.0" y="22" width="375" height="690"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon1" translatesAutoresizingMaskIntoConstraints="NO" id="5cr-Dg-GfH">
+                                        <rect key="frame" x="18.666666666666657" y="144" width="338" height="402"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="338" id="Q6r-VH-orz"/>
+                                            <constraint firstAttribute="height" constant="402" id="QIx-lJ-RLW"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDe-7U-XSn">
+                                        <rect key="frame" x="141" y="590" width="92" height="34"/>
+                                        <color key="backgroundColor" red="0.17779326637449538" green="0.99326091999999999" blue="0.55002408205779318" alpha="0.2305222602739726" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal" title="下一张">
+                                            <color key="titleColor" red="1" green="0.47385590589999999" blue="0.17173047159999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="nextClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a3Q-V8-2Fz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99326091999999999" green="0.61611743636059468" blue="0.95652286971299227" alpha="0.2927814640410959" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="RDe-7U-XSn" firstAttribute="leading" secondItem="91H-rf-gXk" secondAttribute="leading" constant="141" id="C8c-zT-BE4"/>
+                                    <constraint firstItem="5cr-Dg-GfH" firstAttribute="centerX" secondItem="91H-rf-gXk" secondAttribute="centerX" id="COR-2V-oLP"/>
+                                    <constraint firstItem="RDe-7U-XSn" firstAttribute="top" secondItem="5cr-Dg-GfH" secondAttribute="bottom" constant="44" id="HhO-97-abZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="RDe-7U-XSn" secondAttribute="trailing" constant="142" id="XwO-Jt-xbP"/>
+                                    <constraint firstItem="5cr-Dg-GfH" firstAttribute="centerY" secondItem="91H-rf-gXk" secondAttribute="centerY" id="yhB-lq-dHU"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Bb-SE-Ai0">
+                                <rect key="frame" x="0.0" y="712" width="375" height="66"/>
+                                <color key="backgroundColor" red="0.29085820309669952" green="0.88505623385894194" blue="1" alpha="0.41735338184931509" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="aD4-pr-fAO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="开始录制">
+                                    <color key="titleColor" red="0.25233162601191766" green="0.24988718319538289" blue="0.99326091999999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <state key="selected" title="结束录制"/>
+                                <connections>
+                                    <action selector="startRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PrS-Kf-lDw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2Bb-SE-Ai0" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Mb8-87-HIr"/>
+                            <constraint firstItem="91H-rf-gXk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="PJt-Zb-RdY"/>
+                            <constraint firstItem="2Bb-SE-Ai0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WfE-KW-mKY"/>
+                            <constraint firstItem="2Bb-SE-Ai0" firstAttribute="top" secondItem="91H-rf-gXk" secondAttribute="bottom" id="crx-vW-Okz"/>
+                            <constraint firstItem="2Bb-SE-Ai0" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ekn-dI-gpW"/>
+                            <constraint firstItem="91H-rf-gXk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="f4W-xI-jab"/>
+                            <constraint firstItem="91H-rf-gXk" firstAttribute="topMargin" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="8" id="fFL-uX-99z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="iconView" destination="5cr-Dg-GfH" id="QKZ-kG-jfd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="24.384236453201972"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon1" width="370" height="241"/>
+    </resources>
+</document>
