@@ -32,7 +32,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "85"
             endingLineNumber = "85"
-            landmarkName = "useHeroAnimation(_:)"
+            landmarkName = "useAppStoreAnimation(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -46,9 +46,9 @@
             filePath = "ios11&#x5927;&#x6807;&#x9898;&#x548c;&#x4e0b;&#x62c9;&#x5237;&#x65b0;/ViewController/TestBViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
-            landmarkName = "useHeroAnimation(_:)"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "useAppStoreAnimation(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

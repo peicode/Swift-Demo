@@ -65,9 +65,10 @@ class TestBViewController: UIViewController {
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
 //        changeTitleLabel(scrollView)
-        useHeroAnimation(scrollView)
+        useAppStoreAnimation(scrollView)
     }
 
+    //transform仿射变换
     func changeTitleLabel(_ scrollView: UIScrollView) {
         let offSetY = scrollView.contentOffset.y
         print("offsety----||||\(offSetY)")
@@ -77,16 +78,16 @@ class TestBViewController: UIViewController {
         titleLabel?.transform = CGAffineTransform.identity.scaledBy(x: 1, y: 1).translatedBy(x: 1, y: height)
     }
 
-    func useHeroAnimation(_ scrollView: UIScrollView) {
+    // 本来想用hero，后来一想不适合，还是用的App store一样的动画；并不适合我们项目的动画
+    func useAppStoreAnimation(_ scrollView: UIScrollView) {
         let offsetY = scrollView.contentOffset.y
-        if offsetY > 40 && titleLabel?.alpha == 0 {
+        if offsetY > largeTitleLabelHeight - 15 && titleLabel?.alpha == 0 {
             UIView.animate(withDuration: 0.2) {
                 self.titleLabel?.frame = CGRect(x: 20, y: 0, width: 200, height: 44)
                 self.titleLabel?.alpha = 1
                 self.largeLabel.alpha = 0
             }
-
-        } else if offsetY <= 40 && titleLabel?.alpha == 1 {
+        } else if offsetY <= largeTitleLabelHeight - 15 && titleLabel?.alpha == 1 {
             UIView.animate(withDuration: 0.2) {
                 self.titleLabel?.frame = CGRect(x: 20, y: 10, width: 200, height: 44)
                 self.titleLabel?.alpha = 0
@@ -109,7 +110,7 @@ class TestBViewController: UIViewController {
 
 extension TestBViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 20
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
